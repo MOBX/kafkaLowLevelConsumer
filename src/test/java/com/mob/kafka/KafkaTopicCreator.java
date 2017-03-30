@@ -21,8 +21,8 @@ public class KafkaTopicCreator {
 
     public static void main(String[] args) {
         String topicName = "zxc_test";
-        String zookeeperHosts = "192.168.180.154:2181,192.168.180.155:2181,192.168.180.156:2181";
-        String kafkaBrokerHosts = "192.168.180.154:9092,192.168.180.155:9092,192.168.180.156:9092";
+        String zookeeperHosts = "192.168.180.154:2181,192.168.180.155:2181";
+        String kafkaBrokerHosts = "192.168.180.154:9092,192.168.180.155:9092";
         int sessionTimeOut = 10000;
         int connectionTimeOut = 10000;
         LOGGER.info("zookeeperHosts:{}", zookeeperHosts);
